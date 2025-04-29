@@ -121,6 +121,6 @@ To enable communication between your [local installation](http://localhost:8000/
 add `origins = http://localhost:8000` on your agent config.ini file
 (if you are using https, add `origins = https://localhost:8000`).
 
-- On macOs ~/Applications/ArduinoCreateAgent/ArduinoCreateAgent.app/Contents/MacOS/config.ini
-- On Linux ~/ArduinoCreateAgent/config.ini
-- On Windows C:\Users\\[your user]\AppData\Roaming\ArduinoCreateAgent
+- On macOs `$HOME/Library/Application Support/ArduinoCreateAgent/config.ini`
+- On Linux `$XDG_CONFIG_HOME/ArduinoCreateAgent/config.ini`. If empty, `$HOME/.config/ArduinoCreateAgent/config.ini`
+- On Windows `%AppData%\ArduinoCreateAgent\config.ini`
